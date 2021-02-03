@@ -2841,7 +2841,8 @@ JitsiConference.prototype._updateProperties = function(properties = {}) {
             'bridge-count',
 
             // The conference creation time (set by jicofo).
-            'created-ms'
+            'created-ms',
+            'octo-enabled'
         ];
 
         analyticsKeys.forEach(key => {
